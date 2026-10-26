@@ -1,0 +1,6 @@
+GitHub upload instructions
+1. Open this folder.
+2. Select everything inside it (app.js, index.html, manifest.webmanifest, sw.js, images, and this note).
+3. Drag the selected contents to the repository root upload page. Do not upload the outer thefoods-upload folder as a nested folder.
+4. Keep the images folder intact.
+5. Commit the changes.
