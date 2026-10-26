@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Milkshake illustration">
+  <rect width="640" height="400" rx="28" fill="#f7eee2"/><ellipse cx="320" cy="346" rx="125" ry="18" fill="#e6d8c5"/>
+  <path d="m300 93 31-9 41 140-31 9Z" fill="#e06d4d" stroke="#ad5038" stroke-width="7"/><path d="M222 170h196l-24 153c-3 17-16 29-33 29h-82c-17 0-30-12-33-29Z" fill="#f4d7b8" stroke="#b77b55" stroke-width="9"/>
+  <path d="M220 187h200l-6 33H226Z" fill="#fff3db"/><path d="M270 251c22-28 50-27 73 0s47 25 58 3l-13 69c-2 11-12 17-25 17h-72c-12 0-21-8-23-20l-9-48Z" fill="#8c4d39" opacity=".8"/>
+  <path d="M255 158c5-24 30-30 45-20 7-22 35-27 48-9 23-10 43 6 39 28Z" fill="#fff5e5" stroke="#d8ad81" stroke-width="7"/><circle cx="320" cy="150" r="11" fill="#b7473b"/>
+</svg>

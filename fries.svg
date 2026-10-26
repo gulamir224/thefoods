@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Fries illustration">
+  <rect width="640" height="400" rx="28" fill="#f7eee2"/><ellipse cx="320" cy="345" rx="150" ry="20" fill="#e6d8c5"/>
+  <g stroke="#bd762c" stroke-width="8" stroke-linejoin="round"><path d="m210 214 20-120 48 3 5 117Z" fill="#f4c649"/><path d="m272 211 3-137 48-5 13 142Z" fill="#ffd45e"/><path d="m335 211 10-127 48 10 0 122Z" fill="#f3bd3d"/><path d="m395 218-5-106 45-17 27 129Z" fill="#ffd45e"/><path d="m184 205 272 0-38 142H222Z" fill="#df6e43"/><path d="m184 205 272 0-12 42H196Z" fill="#f18b50"/></g>
+  <g fill="#fff1c9"><circle cx="247" cy="279" r="5"/><circle cx="300" cy="300" r="5"/><circle cx="356" cy="272" r="5"/><circle cx="402" cy="310" r="5"/></g>
+</svg>
