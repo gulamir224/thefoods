@@ -57,3 +57,15 @@ Distance pricing is optional and starts disabled so the sample shop can still us
 4. During delivery checkout, customers enter their delivery address and tap **Use my location for delivery quote**, then allow browser location access. The browser requires HTTPS on a public site; `localhost` is allowed for local testing.
 
 The current quote uses straight-line GPS distance from the shop, rounds kilometres up for the per-kilometre charge, adds the base fee, and applies the existing free-delivery threshold. It is not a road-route estimate, so set a delivery radius that matches the area you can actually serve. The server independently calculates the amount and rejects locations beyond the configured radius. Exact customer coordinates are used only to calculate the quote and are not saved with the order. Leave distance pricing off to keep using the flat delivery fee.
+
+
+## WhatsApp orders and merchant UPI QR
+
+In **Owner sign in → Settings**, enter your WhatsApp business number with country code (digits only, for example an Indian number starts with 91), your merchant UPI ID (VPA), and the path to your merchant QR image. Put the QR PNG/JPG in the `images` folder and enter a path such as `/images/payment-qr.png`. If you publish the site, upload this image with the rest of the `images` folder. The WhatsApp button appears after checkout and opens a complete order message; the customer still taps **Send** in WhatsApp.
+
+A static QR/UPI transfer is **not automatically verified**. Those orders remain pending until you check the amount in your merchant bank/payment app and use **Mark paid after checking UPI receipt** in the owner order list. Never mark it paid based only on a screenshot or customer claim. UPI QR setup does not collect a PIN. For automatic verified payments and bank settlement, configure Razorpay merchant account, live credentials and webhook as described above. Demo UPI checkout remains a no-charge simulated path for testing; choose it instead of QR when running the demo.
+
+
+## Install on Android from the website
+
+The site is a Progressive Web App (PWA), not an APK. Deploy it to Render or another HTTPS host, then open its `https://` address in Chrome on Android. Tap **Install** in the site header and accept the browser prompt. If Chrome does not offer the prompt yet, use Chrome's ⋮ menu → **Install app** or **Add to Home screen**. The app manifest provides 192×192 and 512×512 icons, and the service worker caches the app shell for repeat visits.
