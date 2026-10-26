@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Meal illustration">
+  <rect width="640" height="400" rx="28" fill="#f7eee2"/><ellipse cx="320" cy="348" rx="205" ry="20" fill="#e6d8c5"/>
+  <path d="M113 285c16-85 75-126 155-126s139 41 155 126Z" fill="#fffaf1" stroke="#d9cbb7" stroke-width="9"/><ellipse cx="268" cy="284" rx="163" ry="45" fill="#f5ead8" stroke="#d9cbb7" stroke-width="8"/>
+  <path d="M158 243c3-42 39-70 83-70s80 28 83 70Z" fill="#e8a84f" stroke="#b86d2c" stroke-width="7"/><path d="M158 241h166v16H158Z" fill="#66a34f"/><path d="M162 258h158v20H162Z" fill="#693b2b"/><path d="M156 278h168c-4 17-19 25-39 25h-89c-20 0-35-8-40-25Z" fill="#dfa04b"/>
+  <g stroke="#bd762c" stroke-width="6" stroke-linejoin="round"><path d="m375 232 12-77 28 2 2 75Z" fill="#ffd45e"/><path d="m414 233 3-90 29-3 8 93Z" fill="#f3bd3d"/><path d="m452 234 8-74 29 6 0 68Z" fill="#ffd45e"/><path d="m365 232 126 0-18 69h-90Z" fill="#df6e43"/></g>
+</svg>
